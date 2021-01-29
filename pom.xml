@@ -125,5 +125,18 @@
 			</plugin>
 		</plugins>
 	</build>
+	
+	<distributionManagement>
+	    <repository>
+		<id>central</id>
+		<name>f5bd5b095126-releases</name>
+		<url>https://myjfrog.com/artifactory/mylocal</url>
+	    </repository>
+	    <snapshotRepository>
+		<id>snapshots</id>
+		<name>f5bd5b095126-snapshots</name>
+		<url>https://myjfrog.com/artifactory/mylocal</url>
+	    </snapshotRepository>
+	</distributionManagement>
 
 </project>
